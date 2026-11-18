@@ -1459,7 +1459,11 @@ nav a:hover{
 
     .producto-detalle{
 
-        padding:15px;
+        min-height:auto;
+
+        padding:10px;
+
+        margin:0;
     }
 
     .producto-detalle img{
@@ -1469,6 +1473,27 @@ nav a:hover{
         height:auto;
 
         max-height:none;
+    }
+
+    .producto-detalle h2{
+
+        font-size:26px;
+    }
+
+    .producto-detalle p{
+
+        font-size:16px;
+
+        line-height:1.5;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+    .producto-detalle{
+
+        min-height:auto;
     }
 
 }
