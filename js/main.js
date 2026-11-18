@@ -194,7 +194,7 @@ if(formulario){
 
         const texto =
 
-`Hola, me gustaría obtener más información.
+`Hola, me gustaría agendar una micro-terapia gratis.
 
 Nombre: ${nombre}
 
