@@ -82,6 +82,12 @@ html{
     scroll-behavior: smooth;
 }
 
+html,
+body{
+
+    overflow-x:hidden;
+}
+
 .hero{
     min-height:calc(100vh - 75px);
     display:flex;
@@ -1260,4 +1266,263 @@ nav a:hover{
     box-shadow:0 5px 15px rgba(0,0,0,.35);
 
     transition:.3s;
+}
+
+@media (max-width:992px){
+
+    header{
+
+        padding:15px 20px;
+    }
+
+    nav{
+
+        display:flex;
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:10px;
+    }
+
+    .hero{
+
+        padding:40px;
+
+        text-align:center;
+
+        align-items:center;
+    }
+
+    .hero h2{
+
+        font-size:2.3rem;
+
+        text-align:center;
+    }
+
+    .hero p{
+
+        text-align:center;
+
+        font-size:1.2rem;
+    }
+
+    .contacto-container{
+
+        flex-direction:column;
+    }
+
+    .contacto-formulario,
+    .contacto-redes{
+
+        width:100%;
+    }
+
+}
+
+@media (max-width:768px){
+
+    html,
+    body{
+
+        overflow-x:hidden;
+    }
+
+    body{
+
+        padding-top:150px;
+    }
+
+    header{
+
+        flex-direction:column;
+
+        gap:15px;
+
+        padding:15px;
+
+        text-align:center;
+    }
+
+    nav{
+
+        display:grid;
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:10px;
+
+        width:100%;
+    }
+
+    nav a{
+
+        margin:0;
+    }
+
+    .hero{
+
+        width:100%;
+
+        min-height:85vh;
+
+        padding:20px;
+
+        align-items:center;
+
+        text-align:center;
+
+        background-position:center center;
+    }
+
+    .hero h2{
+
+        font-size:2rem;
+
+        max-width:100%;
+
+        text-align:center;
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+        max-width:100%;
+
+        text-align:center;
+    }
+
+    .btn-principal{
+
+        width:100%;
+
+        text-align:center;
+
+        max-width:320px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .ecosistema-container{
+
+        width:310px;
+
+        height:310px;
+    }
+
+    .centro a{
+
+        width:120px;
+
+        height:120px;
+
+        font-size:16px;
+    }
+
+    .nodo{
+
+        width:85px;
+
+        height:85px;
+
+        font-size:11px;
+    }
+
+    .belleza{
+
+        top:50px;
+    }
+
+    .descanso{
+
+        top:50px;
+    }
+
+    .agrotech{
+
+        bottom:50px;
+    }
+
+    .mascotas{
+
+        bottom:50px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .producto-detalle{
+
+        padding:15px;
+    }
+
+    .producto-detalle img{
+
+        width:100%;
+
+        height:auto;
+
+        max-height:none;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .beneficio-card{
+
+        width:100%;
+    }
+
+    #beneficios{
+
+        padding:60px 20px;
+    }
+
+    #nosotros{
+
+        padding:50px 20px;
+    }
+
+    #contacto{
+
+        padding:50px 20px;
+    }
+
+    .contacto-container{
+
+        flex-direction:column;
+    }
+
+    .contacto-formulario{
+
+        width:100%;
+    }
+
+    .contacto-redes{
+
+        width:100%;
+    }
+
+    .testimonios-wrapper{
+
+        width:100%;
+    }
+
+    .slider-container{
+
+        width:100%;
+    }
+
+    .testimonio-card{
+
+        flex:0 0 260px;
+    }
+
 }
