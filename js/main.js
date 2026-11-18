@@ -204,7 +204,7 @@ Mensaje:
 ${mensaje}`;
 
         const url =
-        `https://wa.me/593TU_NUMERO?text=${encodeURIComponent(texto)}`;
+        `https://wa.me/961515936?text=${encodeURIComponent(texto)}`;
 
         window.open(url,'_blank');
 
