@@ -1546,3 +1546,45 @@ nav a:hover{
     }
 
 }
+
+@media (max-width:768px){
+
+    .eco-slide{
+
+        min-height:auto;
+
+        padding:10px 0;
+    }
+
+    .eco-imagen{
+
+        max-width:100%;
+
+        max-height:none;
+
+        height:auto;
+
+        display:block;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+    .eco-slide{
+
+        min-height:auto;
+
+        padding:15px 0;
+    }
+
+    .eco-imagen{
+
+        max-width:100%;
+
+        max-height:none;
+
+        height:auto;
+    }
+
+}
