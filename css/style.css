@@ -837,8 +837,6 @@ nav a:hover{
 
     align-items:center;
 
-    justify-content:center;
-
     gap:20px;
 
     max-width:1500px;
@@ -1532,17 +1530,46 @@ nav a:hover{
 
     .testimonios-wrapper{
 
+        display:block;
+
         width:100%;
     }
 
     .slider-container{
 
         width:100%;
+
+        overflow-x:auto;
+
+        overflow-y:hidden;
+
+        -webkit-overflow-scrolling:touch;
+    }
+
+    .slider{
+
+        display:flex;
+
+        gap:15px;
+
+        padding:0 15px;
+
+        width:max-content;
     }
 
     .testimonio-card{
 
-        flex:0 0 260px;
+        flex:0 0 85vw;
+
+        max-width:85vw;
+
+        min-height:auto;
+    }
+
+    .prev,
+    .next{
+
+        display:none;
     }
 
 }
@@ -1585,6 +1612,55 @@ nav a:hover{
         max-height:none;
 
         height:auto;
+    }
+
+}
+
+@media (max-width:768px){
+
+    #testimonios h2{
+
+        font-size:32px;
+
+        line-height:1.2;
+    }
+
+    .testimonio-card{
+
+        padding:15px;
+    }
+
+    .testimonio-card img{
+
+        width:90px;
+
+        height:90px;
+    }
+
+    .testimonio-card h3{
+
+        font-size:20px;
+    }
+
+    .testimonio-card p{
+
+        font-size:15px;
+
+        line-height:1.5;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .testimonios-wrapper{
+
+        display:block;
+    }
+
+    #testimonios{
+
+        overflow:hidden;
     }
 
 }
